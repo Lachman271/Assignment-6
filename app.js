@@ -241,7 +241,7 @@
 // var userInput = prompt("Enter Any World To Find Last Character");
 // var lastIndex = userInput.length;
 // var lastChar = userInput[lastIndex - 1];
-// alert("User Input: " +  userInput + "\nLast Character Of Input: " + lastChar );
+// document.write("User Input: " +  userInput +"<br>"+ "Last Character Of Input: " + lastChar );
 
 
 
@@ -253,18 +253,18 @@
 
 
 
-var para = "the quick brown fox jumps over the lazy dog"
-var count = 0;
-for(var i = 0; i < para.length; i++)
-{
-    if (para.slice(i,i+3) == "the" )
-    {
-        ++count;
-    }
-}
+// var para = "the quick brown fox jumps over the lazy dog"
+// var count = 0;
+// for(var i = 0; i < para.length; i++)
+// {
+//     if (para.slice(i,i+3) == "the" )
+//     {
+//         ++count;
+//     }
+// }
 
 
-document.write("Text: " + para + "<br>" + "There are " + count + " occurrence(s) of the Word 'the'")
+// document.write("Text: " + para + "<br>" + "There are " + count + " occurrence(s) of the Word 'the'")
 
 
 
@@ -497,7 +497,9 @@ document.write("Text: " + para + "<br>" + "There are " + count + " occurrence(s)
 // var getTime =now.getTime();
 // var minutes = getTime/60;
 
-// alert("Current Date: " + now + "\nElapsed miliseconds since Jan 1,1970: " + getTime +"\nElapsed minutes since Jan 1,1970: " + minutes )
+// document.write("Current Date: " + now + "<br>" )
+// document.write("Elapsed miliseconds since Jan 1,1970: " + getTime + "<br>" )
+// document.write("Elapsed minutes since Jan 1,1970: " + minutes )
 
 
 
@@ -533,7 +535,7 @@ document.write("Text: " + para + "<br>" + "There are " + count + " occurrence(s)
 // var dateSet = now.setDate(30);
 // var monthSet = now.setMonth(11);
 // var laterDate = now;
-// alert("Later Date: " + laterDate);
+// document.write("Later Date: " + laterDate);
 
 
 
@@ -623,7 +625,7 @@ document.write("Text: " + para + "<br>" + "There are " + count + " occurrence(s)
 // var runingYear = now.getFullYear();
 // var birthYear = runingYear - userInput;
 
-// alert("Your age is: " + userInput + "\nYour birth year is " + birthYear);
+// document.write("Your age is: " + userInput + "<br>" +"Your birth year is " + birthYear);
 
 
 
@@ -655,3 +657,14 @@ document.write("Text: " + para + "<br>" + "There are " + count + " occurrence(s)
 // document.write("Net Amount Payable (within Due Date): " + amountPay + "<br>");
 // document.write("Late Fee surcharges: " + lateFee + "<br>");
 // document.write("Grous Amount Payable (after Due Date): " + lateAmount + "<br>");
+
+
+
+
+
+
+
+
+
+
+//  Chapter 35-38 =============================================================================================
